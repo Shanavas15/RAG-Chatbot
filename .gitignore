@@ -1,0 +1,20 @@
+﻿# Virtual environments
+venv/
+.venv/
+
+# Secrets: never commit these
+.env
+.streamlit/secrets.toml
+
+# Generated data (rebuilt from PDFs)
+vector_store/
+
+# Sample documents
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
